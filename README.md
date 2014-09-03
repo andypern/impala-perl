@@ -117,7 +117,7 @@ Docs are here: http://doc.mapr.com/pages/viewpage.action?pageId=23266350#JDBC/OD
 
 >note: these are the `user` ODBC data sources.
 
-3.  Modify /etc/odbinst.ini (you can append):
+3.  Modify /usr/local/odbc/odbinst.ini (you can append):
 
 		#MapR ODBC
 		[ODBC Drivers]
