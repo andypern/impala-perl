@@ -170,13 +170,13 @@ Maybe you want to use Cloudera's driver instead.  I haven't tested but here's ho
 	 
 ###useful commands
 
-odbcinst -q -d
-odbcinst -q -s
-
-perl -MDBI -e 'DBI-> installed_versions;'
-
-
+	odbcinst -q -d
+	odbcinst -q -s
 	
+	perl -MDBI -e 'DBI-> installed_versions;'
+	
+	
+		
 	
 
 	
