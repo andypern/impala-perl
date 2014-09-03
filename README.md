@@ -91,7 +91,7 @@ Docs are here: http://doc.mapr.com/pages/viewpage.action?pageId=23266350#JDBC/OD
 	
 		export SIMBAINI=/etc/mapr.impalaodbc.ini
 		
->note: these override the default locations.  You're more than welcome to use the default locations which are listed in the previously mentioned documentation if you like..but you'll need to make sure to pay attention to which files you are editing.
+	>note: these override the default locations.  You're more than welcome to use the default locations which are listed in the previously mentioned documentation if you like..but you'll need to make sure to pay attention to which files you are editing.
 	
 	
 4.  Copy some template files into place:
@@ -115,7 +115,7 @@ Docs are here: http://doc.mapr.com/pages/viewpage.action?pageId=23266350#JDBC/OD
 		HOST=node0
 		PORT=21050
 
->note: these are the `user` ODBC data sources.
+	>note: these are the `user` ODBC data sources.
 
 3.  Modify /usr/local/odbc/odbinst.ini (you can append):
 
@@ -132,7 +132,7 @@ Docs are here: http://doc.mapr.com/pages/viewpage.action?pageId=23266350#JDBC/OD
 		Description=MapR Impala ODBC Driver (64-bit)
 		Driver=/opt/mapr/impalaodbc/lib/64/libmaprimpalaodbc64.so
 		
->note: these are the `system` ODBC sources.  You don't actually need them if you are only going to use the `user` ones defined previously.		
+	>note: these are the `system` ODBC sources.  You don't actually need them if you are only going to use the `user` ones defined previously.		
 		
 
 4.  Modify /etc/mapr.impalaodbc.ini .  make sure to comment out all ODBC driver managers EXCEPT:
